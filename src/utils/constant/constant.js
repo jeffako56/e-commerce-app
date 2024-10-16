@@ -13,6 +13,7 @@ export const CONSTANT = {
     },
 
     color : {
-        primary : "#7130d5"
+        primary : "#7130d5",
+        gray : "gray"
     }
 }

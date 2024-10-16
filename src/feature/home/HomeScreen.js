@@ -25,7 +25,7 @@ const HomeScreen = () => {
 
 
   const handleScroll = useCallback(() => {
-    if (window.scrollY > lastScrollY) {
+    if (window.scrollY > "30%") {
       setIsTitleVisible(false);
     } else {
       setIsTitleVisible(true);
@@ -54,8 +54,8 @@ const HomeScreen = () => {
             <img
               src={"profile.png"}
               alt={"profile.png"}
-              style={styles.profile}
-            />
+              style={styles.profile} 
+              />
             <div style={styles.greetings}>
               <div style={styles.textStyle}>Welcome to e-commerce</div>
               <div style={styles.textStyleBold}>Good Morning, Nicole</div>

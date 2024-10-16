@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { BottomNavigation, BottomNavigationAction } from "@mui/material";
+import { BottomNavigation, BottomNavigationAction, createTheme, ThemeProvider } from "@mui/material";
 import { Discount, HomeSharp, Person } from "@mui/icons-material";
 import HomeScreen from "../home/HomeScreen";
 import CouponScreen from "../coupons/CouponScreen";
@@ -24,23 +24,23 @@ const MainScreen = () => {
             ) : (
                 <MeScreen />
             )}
-            <BottomNavigation
-                showLabels
-                value={value}
-                onChange={handleChange}
-                style={styles.stickToBottom}
-                sx={{
-                    "& , .Mui-selected ,  .MuiBottomNavigationAction,  .MuiBottomNavigation": {
-                        color: CONSTANT.color.primary,
-                    }
-                }}
-            >
-                <BottomNavigationAction label="Home" icon={< HomeSharp />} />
-                <BottomNavigationAction label="Coupons" icon={<Discount />} />
-                <BottomNavigationAction label="Me" icon={<Person />} />
-            </BottomNavigation>
+            <ThemeProvider theme={theme}>
+                <BottomNavigation
+                    showLabels
+                    value={value}
+                    onChange={handleChange}
+                    style={styles.stickToBottom}
+                >
+                    <BottomNavigationAction label="Home" icon={< HomeSharp />} />
+                    <BottomNavigationAction label="Coupons" icon={<Discount />} />
+                    <BottomNavigationAction label="Me" icon={<Person />} />
+                </BottomNavigation>
+            </ThemeProvider>
+
         </div>
     );
+
+
 }
 
 const styles = {
@@ -53,3 +53,18 @@ const styles = {
 };
 
 export default MainScreen;
+
+export const theme = createTheme({
+    components: {
+        MuiBottomNavigationAction: {
+            styleOverrides: {
+                root: {
+                    color: 'gray', // Default icon color
+                    '&.Mui-selected': {
+                        color: CONSTANT.color.primary, // Color when selected
+                    },
+                },
+            },
+        },
+    },
+});
