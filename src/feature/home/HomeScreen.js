@@ -1,4 +1,4 @@
-import React, { useEffect, useState, } from "react";
+import React, { useCallback, useEffect, useState, } from "react";
 
 import { CircularProgress, Typography } from "@mui/material";
 import { CONSTANT } from "../../utils/constant/constant";
@@ -24,7 +24,7 @@ const HomeScreen = () => {
 
 
 
-  const handleScroll = () => {
+  const handleScroll = useCallback(() => {
     if (window.scrollY > lastScrollY) {
       setIsTitleVisible(false);
     } else {
@@ -32,22 +32,17 @@ const HomeScreen = () => {
     }
 
     setLastScrollY(window.scrollY);
-  };
+  }, [lastScrollY]);
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  }, [handleScroll]);
 
   if (!data) {
-    return <CircularProgress style={{
-      position: "absolute",
-      top: "50%",
-      alignItems: "center",
-      justifyContent: "center",
-    }} />
+    return <CircularProgress style={styles.circularProgress} />
   }
 
   return (
@@ -103,7 +98,13 @@ const styles = {
   textStyle: { color: "#fff", textAlign: "left" },
   textStyleBold: { color: "#fff", fontWeight: 600, textAlign: "left", },
   cardlistView: { height: "100vh", marginBottom: 20 },
-  bottomSpace: { height: 100 }
+  bottomSpace: { height: 100 },
+  circularProgress: {
+    position: "absolute",
+    top: "50%",
+    alignItems: "center",
+    justifyContent: "center",
+  }
 }
 
 export default HomeScreen;

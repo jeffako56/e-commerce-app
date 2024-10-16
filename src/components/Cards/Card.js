@@ -27,11 +27,12 @@ const Card = ({ product_image, brand_image, progress, title, brand_name, product
                     <p style={styles.textStyle}>{title}</p>
                 </div>
                 <div style={{ marginTop: 10 }}>
-                    <div style={{ backgroundColor: "gray" }}>
+                    <div style={{ backgroundColor: "gray", borderRadius: 3 }}>
                         <div style={{
                             width: Math.round(progress * 100) + "%", marginBottom: 0,
                             backgroundColor: "#7130d5",
                             height: 15,
+                            borderRadius: 3
                         }}></div>
                     </div>
                     <p style={{ marginTop: 0 }}>{Math.round(progress * 100)}% Complete</p>
