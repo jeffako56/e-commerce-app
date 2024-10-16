@@ -1,6 +1,8 @@
-import { CircularProgress, Typography } from "@mui/material";
 import React, { useEffect, useState, } from "react";
-import { CONSTANT, Constant } from "../../utils/constant/constant";
+
+import { CircularProgress, Typography } from "@mui/material";
+import { CONSTANT } from "../../utils/constant/constant";
+
 import CardList from "../../components/Cards/CardList";
 
 const HomeScreen = () => {

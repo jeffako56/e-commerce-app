@@ -1,7 +1,7 @@
 import React from 'react';
 import './Card.css';
+
 import ImageWithPlaceholder from '../Image/ImageWithPlaceholder';
-import { CardContent } from '@mui/material';
 
 const Card = ({ product_image, brand_image, progress, title, brand_name, product_name }) => {
     return (
@@ -69,7 +69,6 @@ const styles = {
         justifyContent: "space-between",
         display: "flex",
         flexDirection: "column",
-        justifyContent: "space-between",
     },
     textStyle: {
         margin: 0,

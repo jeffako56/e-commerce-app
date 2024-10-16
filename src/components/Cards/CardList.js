@@ -1,7 +1,10 @@
 import React from 'react';
+
+import { CONSTANT } from '../../utils/constant/constant';
+
 import Card from './Card';
 import './Card.css'; // Stylin
-import { CONSTANT } from '../../utils/constant/constant';
+
 
 const CardList = ({ data, lane, label }) => {
 
