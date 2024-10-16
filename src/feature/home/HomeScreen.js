@@ -51,10 +51,10 @@ const HomeScreen = () => {
       {isTitleVisible && (
         <Typography variant="h6" style={{ backgroundColor: "#7130d5" }}>
           <div style={styles.content}>
-            <img src={"profile.png"}
+            <img
+              src={"profile.png"}
               alt={"profile.png"}
               style={styles.profile}
-
             />
             <div style={styles.greetings}>
               <div style={styles.textStyle}>Welcome to e-commerce</div>
@@ -72,8 +72,6 @@ const HomeScreen = () => {
         <CardList data={data} lane={null} label={""} />
         <div style={styles.bottomSpace} />
       </div>
-
-
     </div >
   );
 }
