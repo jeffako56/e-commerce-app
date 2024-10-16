@@ -37,9 +37,7 @@ const Card = ({ product_image, brand_image, progress, title, brand_name, product
                     </div>
                     <p style={{ marginTop: 0 }}>{Math.round(progress * 100)}% Complete</p>
                 </div>
-
             </div>
-
         </div >
     );
 };

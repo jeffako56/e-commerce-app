@@ -7,7 +7,6 @@ import CardList from "../../components/Cards/CardList";
 
 const HomeScreen = () => {
   const [isTitleVisible, setIsTitleVisible] = useState(true);
-  const [lastScrollY, setLastScrollY] = useState(0);
 
   const [data, setData] = useState(null);
 
@@ -25,14 +24,13 @@ const HomeScreen = () => {
 
 
   const handleScroll = useCallback(() => {
-    if (window.scrollY > "30%") {
+    if (window.scrollY > "20%") {
       setIsTitleVisible(false);
     } else {
       setIsTitleVisible(true);
     }
 
-    setLastScrollY(window.scrollY);
-  }, [lastScrollY]);
+  }, []);
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
@@ -54,8 +52,8 @@ const HomeScreen = () => {
             <img
               src={"profile.png"}
               alt={"profile.png"}
-              style={styles.profile} 
-              />
+              style={styles.profile}
+            />
             <div style={styles.greetings}>
               <div style={styles.textStyle}>Welcome to e-commerce</div>
               <div style={styles.textStyleBold}>Good Morning, Nicole</div>
@@ -96,7 +94,7 @@ const styles = {
   textStyle: { color: "#fff", textAlign: "left" },
   textStyleBold: { color: "#fff", fontWeight: 600, textAlign: "left", },
   cardlistView: { height: "100vh", marginBottom: 20 },
-  bottomSpace: { height: 100 },
+  bottomSpace: { height: 80 },
   circularProgress: {
     position: "absolute",
     top: "50%",

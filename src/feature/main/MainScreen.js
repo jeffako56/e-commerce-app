@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 
-import { BottomNavigation, BottomNavigationAction, createTheme, ThemeProvider } from "@mui/material";
+import { BottomNavigation, BottomNavigationAction, ThemeProvider } from "@mui/material";
 import { Discount, HomeSharp, Person } from "@mui/icons-material";
+import { CONSTANT } from "../../utils/constant/constant";
+
 import HomeScreen from "../home/HomeScreen";
 import CouponScreen from "../coupons/CouponScreen";
 import MeScreen from "../me/MeScreen";
-import { CONSTANT } from "../../utils/constant/constant";
-
+import { theme } from "../../utils/themes/theme";
 
 const MainScreen = () => {
     const [value, setValue] = useState(0);
@@ -53,18 +54,3 @@ const styles = {
 };
 
 export default MainScreen;
-
-export const theme = createTheme({
-    components: {
-        MuiBottomNavigationAction: {
-            styleOverrides: {
-                root: {
-                    color: 'gray', // Default icon color
-                    '&.Mui-selected': {
-                        color: CONSTANT.color.primary, // Color when selected
-                    },
-                },
-            },
-        },
-    },
-});
