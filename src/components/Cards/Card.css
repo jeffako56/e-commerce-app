@@ -1,0 +1,90 @@
+/* Card.css */
+.card {
+    min-width: 200px;
+    /* Each card's minimum width */
+    margin-right: 15px;
+    /* Space between cards */
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: "100%";
+    display: "flex";
+    flex-direction: "column";
+    flex: 1;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 200px;
+    /* overflow: 'auto'; */
+    padding: 0;
+    margin-right: 10;
+    justify-content: "space-between";
+}
+
+.card-image {
+    width: 100%;
+    /* Make image fill the card */
+    height: auto;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 200px;
+}
+
+.card-title {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.card-progress {
+    /* margin-top: auto;    */
+    color: #4b4949;
+}
+
+/* CardList.css */
+.card-list {
+    display: flex;
+    /* Use flexbox to align cards horizontally */
+    overflow-x: auto;
+    /* Enable horizontal scrolling */
+    padding: 10px;
+    scrollbar-width: thin;
+    /* For Firefox */
+    -ms-overflow-style: none;
+    /* For Internet Explorer and Edge */
+}
+
+.card-list::-webkit-scrollbar {
+    display: none;
+    /* Hide scrollbar in Chrome, Safari, and Opera */
+}
+
+.card-list:hover {
+    cursor: grab;
+    /* Change cursor style when hovering */
+}
+
+.card-brand-image {
+    width: 25%;
+    /* Make image fill the card */
+    height: 15%;
+    display: flex;
+    justify-content: start;
+    margin-left: 100;
+
+
+}
+
+.card-product-image {
+    width: 200;
+    height: 100;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-content {
+    margin-left: 5;
+    margin-right: 5; 
+    text-align: 'left'; 
+    flex: 1;
+    display: "flex";
+    flex-direction: "column";
+    justify-content: "space-between";
+    border-radius: 15;
+    background-color: "red";
+}

@@ -1,0 +1,227 @@
+[
+  {
+    "brand_name": "Acme Corporation",
+    "brand_image": "https://picsum.photos/50/15?random=1",
+    "product_name": "Acme Anvil",
+    "product_image": "https://picsum.photos/200/100?random=101",
+    "progress": 0.5,
+    "title": "Top-notch Anvils for Professionals",
+    "lane": "features"
+  },
+  {
+    "brand_name": "Globex Industries",
+    "brand_image": "https://picsum.photos/50/15?random=2",
+    "product_name": "Globex Gadget",
+    "product_image": "https://picsum.photos/200/100?random=102",
+    "progress": 0.75,
+    "title": "Innovative Gadgets for Everyday Use",
+    "lane": "hot"
+  },
+  {
+    "brand_name": "Soylent Corp.",
+    "brand_image": "https://picsum.photos/50/15?random=3",
+    "product_name": "Soylent Green",
+    "product_image": "https://picsum.photos/200/100?random=103",
+    "progress": 0.2,
+    "title": "A New Take on Nutrition",
+    "lane": "for_you"
+  },
+  {
+    "brand_name": "Initech",
+    "brand_image": "https://picsum.photos/50/15?random=4",
+    "product_name": "TPS Report Cover Sheets",
+    "product_image": "https://picsum.photos/200/100?random=104",
+    "progress": 1.0,
+    "title": "Streamline Your Workflow",
+    "lane": null
+  },
+  {
+    "brand_name": "Umbrella Corporation",
+    "brand_image": "https://picsum.photos/50/15?random=5",
+    "product_name": "Antivirus Serum",
+    "product_image": "https://picsum.photos/200/100?random=105",
+    "progress": 0.6,
+    "title": "Protect What Matters",
+    "lane": "features"
+  },
+  {
+    "brand_name": "Wayne Enterprises",
+    "brand_image": "https://picsum.photos/50/15?random=6",
+    "product_name": "Batmobile Model X",
+    "product_image": "https://picsum.photos/200/100?random=106",
+    "progress": 0.9,
+    "title": "Experience Luxury and Power",
+    "lane": "hot"
+  },
+  {
+    "brand_name": "Stark Industries",
+    "brand_image": "https://picsum.photos/50/15?random=7",
+    "product_name": "Arc Reactor",
+    "product_image": "https://picsum.photos/200/100?random=107",
+    "progress": 0.3,
+    "title": "Energy for the Future",
+    "lane": "for_you"
+  },
+  {
+    "brand_name": "Wonka Factory",
+    "brand_image": "https://picsum.photos/50/15?random=8",
+    "product_name": "Everlasting Gobstopper",
+    "product_image": "https://picsum.photos/200/100?random=108",
+    "progress": 0.8,
+    "title": "A Candy That Lasts Forever",
+    "lane": null
+  },
+  {
+    "brand_name": "Cyberdyne Systems",
+    "brand_image": "https://picsum.photos/50/15?random=9",
+    "product_name": "T-800 Model",
+    "product_image": "https://picsum.photos/200/100?random=109",
+    "progress": 0.45,
+    "title": "The Future of Robotics",
+    "lane": "features"
+  },
+  {
+    "brand_name": "Aperture Laboratories",
+    "brand_image": "https://picsum.photos/50/15?random=10",
+    "product_name": "Portal Device",
+    "product_image": "https://picsum.photos/200/100?random=110",
+    "progress": 0.95,
+    "title": "Bend the Laws of Physics",
+    "lane": "hot"
+  },
+  {
+    "brand_name": "Gekko & Co.",
+    "brand_image": "https://picsum.photos/50/15?random=11",
+    "product_name": "Financial Analysis Tool",
+    "product_image": "https://picsum.photos/200/100?random=111",
+    "progress": 0.65,
+    "title": "Maximize Your Investments",
+    "lane": "for_you"
+  },
+  {
+    "brand_name": "Oceanic Airlines",
+    "brand_image": "https://picsum.photos/50/15?random=12",
+    "product_name": "Premium Flight Experience",
+    "product_image": "https://picsum.photos/200/100?random=112",
+    "progress": 0.1,
+    "title": "Fly to Exotic Destinations",
+    "lane": null
+  },
+  {
+    "brand_name": "Massive Dynamic",
+    "brand_image": "https://picsum.photos/50/15?random=13",
+    "product_name": "Nanotechnology Kit",
+    "product_image": "https://picsum.photos/200/100?random=113",
+    "progress": 0.55,
+    "title": "Shaping the Future, One Atom at a Time",
+    "lane": "features"
+  },
+  {
+    "brand_name": "Tyrell Corporation",
+    "brand_image": "https://picsum.photos/50/15?random=14",
+    "product_name": "Nexus Replicants",
+    "product_image": "https://picsum.photos/200/100?random=114",
+    "progress": 0.85,
+    "title": "More Human Than Human",
+    "lane": "hot"
+  },
+  {
+    "brand_name": "MomCorp",
+    "brand_image": "https://picsum.photos/50/15?random=15",
+    "product_name": "Robot Bending Unit",
+    "product_image": "https://picsum.photos/200/100?random=115",
+    "progress": 0.4,
+    "title": "For All Your Bending Needs",
+    "lane": "for_you"
+  },
+  {
+    "brand_name": "Oscorp",
+    "brand_image": "https://picsum.photos/50/15?random=16",
+    "product_name": "Spider Enhancement Serum",
+    "product_image": "https://picsum.photos/200/100?random=116",
+    "progress": 0.7,
+    "title": "Unleash Your Inner Hero",
+    "lane": null
+  },
+  {
+    "brand_name": "Duff Brewery",
+    "brand_image": "https://picsum.photos/50/15?random=17",
+    "product_name": "Duff Beer",
+    "product_image": "https://picsum.photos/200/100?random=117",
+    "progress": 0.95,
+    "title": "The Beer of Springfield",
+    "lane": "features"
+  },
+  {
+    "brand_name": "Black Mesa",
+    "brand_image": "https://picsum.photos/50/15?random=18",
+    "product_name": "Anomalous Materials",
+    "product_image": "https://picsum.photos/200/100?random=118",
+    "progress": 0.6,
+    "title": "Pushing Science to the Limit",
+    "lane": "hot"
+  },
+  {
+    "brand_name": "Paper Street Soap Co.",
+    "brand_image": "https://picsum.photos/50/15?random=19",
+    "product_name": "Handmade Soap",
+    "product_image": "https://picsum.photos/200/100?random=119",
+    "progress": 0.25,
+    "title": "Cleanliness is Next to Godliness",
+    "lane": "for_you"
+  },
+  {
+    "brand_name": "Gringotts Bank",
+    "brand_image": "https://picsum.photos/50/15?random=20",
+    "product_name": "Wizarding Banking Services",
+    "product_image": "https://picsum.photos/200/100?random=120",
+    "progress": 0.8,
+    "title": "Your Money is Safe with Us",
+    "lane": null
+  },
+  {
+    "brand_name": "Central Perk",
+    "brand_image": "https://picsum.photos/50/15?random=21",
+    "product_name": "Specialty Coffee",
+    "product_image": "https://picsum.photos/200/100?random=121",
+    "progress": 0.55,
+    "title": "Where Friends Meet",
+    "lane": "features"
+  },
+  {
+    "brand_name": "Monsters Inc.",
+    "brand_image": "https://picsum.photos/50/15?random=22",
+    "product_name": "Child Laughter Energy",
+    "product_image": "https://picsum.photos/200/100?random=122",
+    "progress": 0.9,
+    "title": "Powering Your City with Laughter",
+    "lane": "hot"
+  },
+  {
+    "brand_name": "Nakatomi Corporation",
+    "brand_image": "https://picsum.photos/50/15?random=23",
+    "product_name": "High-Rise Office Spaces",
+    "product_image": "https://picsum.photos/200/100?random=123",
+    "progress": 0.35,
+    "title": "The Pinnacle of Success",
+    "lane": "for_you"
+  },
+  {
+    "brand_name": "Prestige Worldwide",
+    "brand_image": "https://picsum.photos/50/15?random=24",
+    "product_name": "Entertainment Solutions",
+    "product_image": "https://picsum.photos/200/100?random=124",
+    "progress": 0.6,
+    "title": "Investors? Possibly You!",
+    "lane": null
+  },
+  {
+    "brand_name": "Hooli",
+    "brand_image": "https://picsum.photos/50/15?random=25",
+    "product_name": "Compression Algorithm",
+    "product_image": "https://picsum.photos/200/100?random=125",
+    "progress": 0.8,
+    "title": "Making the World a Better Place",
+    "lane": "features"
+  }
+]
